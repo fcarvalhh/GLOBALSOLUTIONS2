@@ -66,7 +66,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a className='nav-link' href="" target='_blank'><i className="fa-brands fa-youtube fa-xl"></i></a>
+              <a className='nav-link bounce' href="https://www.youtube.com/watch?v=TzC-lD_eBwY" target='_blank'><i className="fa-brands fa-youtube fa-xl"></i></a>
             </li>
           </ul>
         </div>

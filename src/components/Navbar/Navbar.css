@@ -85,3 +85,27 @@
     text-align: center;
   }
 } 
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0); /* Sem movimento no início */
+  }
+  25% {
+    transform: translateY(-20px); /* Pulo para cima */
+  }
+  50% {
+    transform: translateY(0); /* Retorno ao lugar */
+  }
+  75% {
+    transform: translateY(-10px); /* Pequena flutuação */
+  }
+  100% {
+    transform: translateY(0); /* Retorno ao lugar */
+  }
+}
+
+.bounce {
+  animation: bounce 3s; /* Duração da animação: 1 segundo */
+  animation-iteration-count: infinite; /* Repetição infinita */
+  animation-timing-function: ease-in-out; /* Função de tempo para um movimento suave */
+}
