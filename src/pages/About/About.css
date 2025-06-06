@@ -94,13 +94,17 @@
 }
 
 /* About Visual */
+/* About Visual */
 .about-visual {
-  position: relative;
-  height: 400px;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  margin-top: 2rem;
 }
 
 .floating-card {
-  position: absolute;
   background: white;
   color: #2c3e50;
   padding: 1.5rem;
@@ -109,6 +113,7 @@
   text-align: center;
   max-width: 200px;
   animation: float-gentle 6s ease-in-out infinite;
+  flex: 1 1 200px;
 }
 
 .floating-card i {
@@ -128,6 +133,7 @@
   margin: 0;
   opacity: 0.8;
 }
+
 
 .floating-card.mission {
   top: 10%;
